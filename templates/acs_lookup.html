@@ -1,0 +1,17 @@
+{% extends "home.html" %}
+{% block content %}
+<h1>Find Zip Data</h1>
+<form method="POST" enctype="multipart/form-data" action="acs_lookup" class="form-inline">
+<div class="form-group">
+<label for="zipfile">File:</label>
+<input type="file" name="zipfile" id="zipfile">
+</div>
+<div class="form-group">
+<label for="fields">Fields:</label>
+<input type="text" name="fields" id="fields">
+</div>
+<div class="form-group">
+<input type="submit" value="Submit" class="btn btn-primary">
+</div>
+</form>
+{% endblock %}

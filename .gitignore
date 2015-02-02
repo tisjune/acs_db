@@ -1,0 +1,6 @@
+data/*.csv
+data_out/*
+script_out/*
+*pyc
+data/.~lock*
+data/*.db
